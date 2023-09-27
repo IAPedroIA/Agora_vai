@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware' # após instalar a biblioteca acrescente essa linha nessa posição 
+    'whitenoise.middleware.WhiteNoiseMiddleware', # após instalar a biblioteca acrescente essa linha nessa posição
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
